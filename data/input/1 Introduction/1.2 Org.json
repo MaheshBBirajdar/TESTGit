@@ -1,6 +1,6 @@
 
 {
-    "name": "VW_Organization_1.2",
+    "name": "VW_Organization_1.2_abc",
     "description": "This file captures information of tenants for the data. All other master / transactional entities haw",
     "table": [
         {
