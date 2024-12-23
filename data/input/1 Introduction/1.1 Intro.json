@@ -1,0 +1,42 @@
+
+{
+    "name": "VW_Organization_1.1",
+    "description": "This file captures information of tenants for the data. All other master / transactional entities haw",
+    "table": [
+        {
+            "Column Name": "Organizationid",
+            "Ordinal Position": "1",
+            "Data Type": "Varchar (800)",
+            "Required":"Yes",
+            "Description": "Indicates the unique identifier for the organization"
+        },
+        {
+            "Column Name": "organizationname",
+            "Ordinal Position": "2",
+            "Data Type": "Varchar (100)",
+            "Required":"Yes",
+            "Description": "Indicates the name of the organization"
+        },
+        {
+            "Column Name": "Addressline1",
+            "Ordinal Position": "3",
+            "Data Type": "Varchar (100)",
+            "Required": "No",
+            "Description": "Indicates address line 1 for the organization"
+        },
+        {
+            "Column Name": "Addressline2",
+            "Ordinal Position": "4",
+            "Data Type": "Varchar (100)",
+            "Required": "No",
+            "Description": "Indicates address line 2 for the organization"
+        },
+        {
+            "Column Name": "city",
+            "Ordinal Position": "5",
+            "Data Type": "Varchar (100)",
+            "Required": "No",
+            "Description": "Indicates address line 2 for the organization"
+        }
+    ]
+}
